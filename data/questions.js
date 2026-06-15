@@ -35,7 +35,7 @@ const trivia = {
     {
       category: "Personajes",
       question: "¿Cómo se llama esta rana extraterrestre?",
-      options: ["Dororo", "Kururu", "Tamama", "Keroro"],
+      options: ["Dororo", "Kururu", "Tamama", "ro"],
       answer: 3,
       isCharacterClue: false,
       image: "https://i.imgur.com/ZTpozXo.png"
@@ -1341,7 +1341,7 @@ const drawCharacters = [
   { name: "Julius Reinberg (Wistoria)", answers: ["julius reinberg", "julius", "reinberg"], image: "/images/characters/julius_reinberg.jpg" },
   { name: "Elfaria Albis Serfort (Wistoria)", answers: ["elfaria", "elfaria albis serfort", "albis serfort", "albis", "serfort", "elfaria albis"], image: "/images/characters/elfaria_albis.jpg" },
   { name: "Sakura (Cardcaptor Sakura)", answers: ["sakura", "cardcaptor", "cardcaptor sakura"], image: "/images/characters/cardcaptor_sakura.jpg" }
-  { name: "Kero (Cardcaptor Sakura)", answers: ["kero"], image: "/images/characters/kero.jpg" }
+  { name: "Kero (Cardcaptor Sakura)", answers: ["kero"], image: "/images/characters/kero.jpg" },
   { name: "Megaman (Megaman)", answers: ["megaman"], image: "/images/characters/megaman.jpg" },
   { name: "Hamtaro (Hamtaro)", answers: ["hamtaro", "jamtaro"], image: "/images/characters/hamtaro.jpg" },
   { name: "Lucy (Elfen Lied)", answers: ["lucy", "lusi", "luci", "lusy"], image: "/images/characters/lucy.jpg" },
