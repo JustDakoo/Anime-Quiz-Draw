@@ -1340,7 +1340,7 @@ const drawCharacters = [
   { name: "Sion Ulster (Wistoria)", answers: ["sion ulster", "sion", "ulster"], image: "/images/characters/sion_ulster.jpg" },
   { name: "Julius Reinberg (Wistoria)", answers: ["julius reinberg", "julius", "reinberg"], image: "/images/characters/julius_reinberg.jpg" },
   { name: "Elfaria Albis Serfort (Wistoria)", answers: ["elfaria", "elfaria albis serfort", "albis serfort", "albis", "serfort", "elfaria albis"], image: "/images/characters/elfaria_albis.jpg" },
-  { name: "Sakura (Cardcaptor Sakura)", answers: ["sakura", "cardcaptor", "cardcaptor sakura"], image: "/images/characters/cardcaptor_sakura.jpg" }
+  { name: "Sakura (Cardcaptor Sakura)", answers: ["sakura", "cardcaptor", "cardcaptor sakura"], image: "/images/characters/cardcaptor_sakura.jpg" },
   { name: "Kero (Cardcaptor Sakura)", answers: ["kero"], image: "/images/characters/kero.jpg" },
   { name: "Megaman (Megaman)", answers: ["megaman"], image: "/images/characters/megaman.jpg" },
   { name: "Hamtaro (Hamtaro)", answers: ["hamtaro", "jamtaro"], image: "/images/characters/hamtaro.jpg" },
@@ -1355,7 +1355,7 @@ const drawCharacters = [
   { name: "Hanamichi Sakuragi (Slam Dunk)", answers: ["hanamachi", "sakuragi", "hanamachi sakuragi"], image: "/images/characters/hanamichi_sakuragi.jpg" }, 
   { name: "Ban Midou (GetBackers)", answers: ["ban", "midou", "ban midou"], image: "/images/characters/ban_midou.jpg" }, 
   { name: "Sung Jin-Woo (Solo Leveling)", answers: ["sung", "sung jin woo", "sung jin", "sungjinwoo"], image: "/images/characters/sung_jin_woo.jpg" }, 
-  { name: "Shōyō Hinata (Haikyu!!)", answers: ["shoyo hinata", "shoyo", "hinata"], image: "/images/characters/shoyo_hinata.jpg" }
+  { name: "Shōyō Hinata (Haikyu!!)", answers: ["shoyo hinata", "shoyo", "hinata"], image: "/images/characters/shoyo_hinata.jpg" },
   { name: "Ken Kaneki (Tokyo Ghoul)", answers: ["kaneki", "ken", "ken kaneki", "kaneki ken"], image: "/images/characters/ken_kaneki.jpg" }, 
   { name: "Juuzou Suzuya (Tokyo Ghoul)", answers: ["juuzou", "juzo", "suzuya", "juuzo suzuya"], image: "/images/characters/juuzou_suzuya.jpg" },
   { name: "Tatsu (De yakuza a amo de casa)", answers: ["tatsu"], image: "/images/characters/tatsu.jpg" },  
@@ -1372,7 +1372,7 @@ const drawCharacters = [
   { name: "Takumi Fujiwara (Initial D.)", answers: ["takumi", "fujiwara", "initial d", "initiald"], image: "/images/characters/takumi_fujiwara.jpg" },
   { name: "Yoko Litner (Gurren Lagann)", answers: ["yoko", "litner", "yoko litner", "yoco"], image: "/images/characters/yoko_litner.jpg" },
   { name: "Vash Estampida (Trigun)", answers: ["vash", "estampida", "vash estampida"], image: "/images/characters/vash_estampida.jpg" }, 
-  { name: "Benjamin Netanyahu (Ministro de Israel)", answers: ["benjamin", "netanyahu", "benjamin netanyahu"], image: "/images/characters/benjamin_netanyahu.jpg" },
+  { name: "Benjamin Netanyahu (Ministro de Israel)", answers: ["benjamin", "netanyahu", "benjamin netanyahu"], image: "/images/characters/benjamin_netanyahu.jpg" }
 ];
 
 // ---------------------------------------------------------------
