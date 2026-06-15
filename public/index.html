@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>📓 Anime Quiz & Draw - Trivial Otaku Multijugador</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+<!-- ======================== SCREEN: HOME ======================== -->
+<div id="screen-home" class="screen active">
+  <div class="logo">
+    <h1>📓 Anime Quiz & Draw </h1>
+    <p>Trivial multijugador de anime para 2–8 jugadores</p>
+  </div>
+
+  <div class="card">
+    <div style="margin-bottom:16px">
+      <label for="input-name">Tu nickname</label>
+      <input type="text" id="input-name" placeholder="ej. SoyOtaku" maxlength="20" />
+    </div>
+    <div class="btn-group">
+      <button class="btn btn-primary" onclick="goToCreate()">Crear sala</button>
+      <button class="btn btn-outline" onclick="goToJoin()">Unirse a sala</button>
+    </div>
+  </div>
+
+  <div id="join-section" style="display:none">
+    <div class="card">
+      <div style="margin-bottom:16px">
+        <label for="input-code">Código de sala</label>
+        <input type="text" id="input-code" placeholder="ej. AB3XZ" maxlength="5"
+          style="text-transform:uppercase; letter-spacing:4px; font-size:1.3rem; text-align:center" />
+      </div>
+      <button class="btn btn-primary" onclick="joinRoom()">Unirse a la sala</button>
+    </div>
+  </div>
+</div>
+
+<!-- ======================== SCREEN: LOBBY ======================== -->
+<div id="screen-lobby" class="screen">
+  <div class="logo">
+    <h1>📓 Anime Quiz & Draw</h1>
+  </div>
+
+  <div class="card">
+    <div class="room-code-display">
+      <div class="code" id="lobby-code">-----</div>
+      <p>Comparte este código con tus amigos!</p>
+    </div>
+
+    <div class="section-title">Jugadores conectados</div>
+    <ul class="player-list" id="lobby-players"></ul>
+  </div>
+
+  <div class="card" id="host-controls" style="display:none">
+    <div class="section-title">Configuración (solo host)</div>
+
+    <div style="margin-bottom:16px">
+      <label>Etapas del juego</label>
+      <div class="stage-toggle-list">
+        <label class="stage-toggle">
+          <input type="checkbox" id="stage-trivia" checked />
+          <span>1️⃣ Preguntas tipo test (con dificultad)</span>
+          <span class="stage-switch"></span>
+        </label>
+        <label class="stage-toggle">
+          <input type="checkbox" id="stage-openings" checked />
+          <span>2️⃣ Adivina el opening 🎵</span>
+          <span class="stage-switch"></span>
+        </label>
+        <label class="stage-toggle">
+          <input type="checkbox" id="stage-osts" checked />
+          <span>3️⃣ Adivina la banda sonora (OST) 🎼</span>
+          <span class="stage-switch"></span>
+        </label>
+        <label class="stage-toggle">
+          <input type="checkbox" id="stage-photos" checked />
+          <span>4️⃣ Adivina el anime por la foto 🖼️</span>
+          <span class="stage-switch"></span>
+        </label>
+        <label class="stage-toggle">
+          <input type="checkbox" id="stage-draw" checked />
+          <span>5️⃣ Draw: dibuja y adivina ✏️</span>
+          <span class="stage-switch"></span>
+        </label>
+      </div>
+    </div>
+
+    <div style="margin-bottom:16px">
+      <label for="input-turns">Turnos por etapa (cada jugador responde este nº de veces por etapa)</label>
+      <select id="input-turns">
+        <option value="3">3 turnos</option>
+        <option value="6" selected>6 turnos</option>
+        <option value="9">9 turnos</option>
+        <option value="12">12 turnos</option>
+      </select>
+    </div>
+
+    <button class="btn btn-primary" id="btn-start" onclick="startGame()">
+      ▶ Empezar partida
+    </button>
+  </div>
+
+  <div class="card" id="guest-waiting" style="display:none">
+    <div class="waiting">
+      <div class="spinner"></div>
+      <p>Esperando a que el host inicie la partida…</p>
+    </div>
+  </div>
+</div>
+
+<!-- ======================== SCREEN: STAGE INTRO ======================== -->
+<div id="screen-stage-intro" class="screen">
+  <div class="card stage-intro-card">
+    <div class="stage-intro-icon" id="stage-intro-icon">🎮</div>
+    <h2 id="stage-intro-title">Etapa</h2>
+    <p id="stage-intro-desc">Descripción de la etapa</p>
+  </div>
+</div>
+
+<!-- ======================== SCREEN: CHOOSE DIFFICULTY ======================== -->
+<div id="screen-choose" class="screen">
+  <div class="progress-bar-wrap">
+    <div class="progress-bar" id="choose-progress" style="width:0%"></div>
+  </div>
+
+  <div id="choose-turn-banner" class="turn-banner">
+    <span class="turn-label">Turno de</span>
+    <span class="turn-name" id="choose-turn-name">…</span>
+  </div>
+
+  <div class="card" id="choose-active-card">
+    <div class="section-title">Elige la dificultad de tu pregunta</div>
+    <div class="difficulty-options" id="difficulty-options"></div>
+  </div>
+
+  <div class="card spectator-card" id="choose-spectator-card" style="display:none">
+    <p>⏳ <span id="choose-spectator-text">El jugador está eligiendo la dificultad…</span></p>
+  </div>
+
+  <div class="timer-display" id="choose-timer">15</div>
+    <div class="timer-bar-wrap"><div class="timer-bar" id="choose-timer-bar"></div></div>
+</div>
+
+<!-- ======================== SCREEN: DRAW CHOICE ======================== -->
+<div id="screen-draw-choice" class="screen">
+  <div class="progress-bar-wrap">
+    <div class="progress-bar" id="draw-choose-progress" style="width:0%"></div>
+  </div>
+
+  <div id="draw-choose-banner" class="turn-banner">
+    <span class="turn-label">Turno de</span>
+    <span class="turn-name" id="draw-choose-turn-name">…</span>
+  </div>
+
+  <div class="card" id="draw-choose-active-card">
+    <div class="section-title">Elige a quién vas a dibujar</div>
+    <div class="difficulty-options" id="draw-choice-options"></div>
+  </div>
+
+  <div class="card spectator-card" id="draw-choose-spectator-card" style="display:none">
+    <p>✏️ <span id="draw-choose-spectator-text">El jugador está elegiendo personaje…</span></p>
+  </div>
+
+  <div class="timer-display" id="draw-choose-timer">12</div>
+    <div class="timer-bar-wrap"><div class="timer-bar" id="draw-choose-timer-bar"></div></div>
+</div>
+
+<!-- ======================== SCREEN: GAME ======================== -->
+<div id="screen-game" class="screen">
+  <div class="progress-bar-wrap">
+    <div class="progress-bar" id="progress-bar" style="width:0%"></div>
+  </div>
+
+  <!-- Banner de turno -->
+  <div id="turn-banner" class="turn-banner">
+    <span id="turn-label">Turno de</span>
+    <span class="turn-name" id="turn-name">…</span>
+  </div>
+
+  <div class="question-meta">
+    <span class="category-badge" id="q-category">Categoría</span>
+    <span class="points-badge" id="q-points">+0 pts</span>
+  </div>
+
+  <!-- Pregunta tipo TRIVIA / OPENING -->
+  <div id="trivia-block">
+    <div class="card" id="q-image-card" style="display:none">
+      <img id="q-image" class="question-image" alt="Imagen de contexto" />
+      <div class="image-caption" id="q-image-caption"></div>
+    </div>
+
+    <div class="card" id="q-audio-card" style="display:none">
+      <div class="audio-prompt" id="q-audio-prompt">🎵 Escucha el opening y adivina el anime</div>
+      <audio id="q-audio" controls style="width:100%"></audio>
+      <div class="audio-hint">Si no tienes el archivo de audio configurado, pídele al host que añada los mp3 en <code>public/audio/</code></div>
+    </div>
+
+    <div class="card">
+      <div style="font-size:0.8rem; color:var(--text-muted); margin-bottom:8px" id="q-progress-label">
+        Pregunta
+      </div>
+      <div id="question-text">Cargando pregunta…</div>
+    </div>
+
+    <div class="timer-display" id="timer">20</div>
+    <div class="timer-bar-wrap"><div class="timer-bar" id="timer-bar"></div></div>
+
+    <div class="options-grid" id="options-grid"></div>
+  </div>
+
+  <!-- Pregunta tipo FOTO con autocompletado -->
+  <div id="photo-block" style="display:none">
+    <div class="card">
+      <div class="photo-hint-label" id="photo-hint-label">Pista 1 de 5</div>
+      <img id="photo-image" class="question-image photo-image" alt="Pista visual" />
+    </div>
+
+    <div class="timer-display" id="photo-timer">20</div>
+    <div class="timer-bar-wrap"><div class="timer-bar" id="photo-timer-bar"></div></div>
+
+    <div class="card" id="photo-answer-card">
+      <label for="photo-input">¿Qué anime es?</label>
+      <div class="autocomplete-wrap chat-input-row">
+        <input type="text" id="photo-input" autocomplete="off" placeholder="Empieza a escribir…" />
+        <button class="send-btn" id="photo-submit-btn" onclick="submitPhotoAnswer()" title="Responder" aria-label="Responder">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+        </button>
+        <ul id="photo-suggestions" class="autocomplete-list"></ul>
+      </div>
+    </div>
+
+    <div class="card spectator-card" id="photo-spectator-card" style="display:none">
+      <p>👀 <span id="photo-spectator-text">Esperando respuesta…</span></p>
+    </div>
+  </div>
+
+  <!-- Pregunta tipo DRAW -->
+  <div id="draw-block">
+    <div class="timer-display" id="draw-timer">180</div>
+    <div class="timer-bar-wrap"><div class="timer-bar" id="draw-timer-bar"></div></div>
+
+    <div class="draw-main-row" id="draw-main-row">
+      <div class="card draw-reference-card" id="draw-reference-card" style="display:none">
+        <div class="draw-reference-label">✏️ Dibuja:</div>
+        <div class="draw-reference-name" id="draw-reference-name">…</div>
+        <img id="draw-reference-image" class="draw-reference-image" alt="Referencia del personaje" />
+      </div>
+
+      <div class="card draw-canvas-card">
+        <canvas id="draw-canvas" width="600" height="400"></canvas>
+
+        <div class="draw-toolbar" id="draw-toolbar" style="display:none">
+          <!-- Herramientas de dibujo -->
+          <div class="draw-tools">
+            <button class="draw-tool-btn active" data-tool="lapiz" title="Lápiz">✏️</button>
+            <button class="draw-tool-btn" data-tool="rotulador" title="Rotulador">🖍️</button>
+            <button class="draw-tool-btn" data-tool="goma" title="Goma de borrar">🧽</button>
+            <button class="draw-tool-btn" data-tool="rectangulo" title="Rectángulo">▭</button>
+            <button class="draw-tool-btn" data-tool="circulo" title="Círculo">⭕</button>
+            <button class="draw-tool-btn" data-tool="cubo" title="Cubo de pintura (rellenar)">🪣</button>
+          </div>
+
+          <!-- Selector de color cuadrado -->
+          <div class="color-picker">
+            <div class="color-picker-sv" id="color-picker-sv">
+              <div class="color-picker-sv-cursor" id="color-picker-sv-cursor"></div>
+            </div>
+            <div class="color-picker-hue" id="color-picker-hue">
+              <div class="color-picker-hue-cursor" id="color-picker-hue-cursor"></div>
+            </div>
+            <div class="color-picker-preview" id="color-picker-preview"></div>
+          </div>
+
+          <div class="draw-sizes">
+            <button class="draw-size-btn" data-size="3">●</button>
+            <button class="draw-size-btn" data-size="6">●</button>
+            <button class="draw-size-btn" data-size="12">●</button>
+          </div>
+
+          <button class="btn btn-outline btn-sm" onclick="clearDrawCanvas(true)">Borrar todo</button>
+        </div>
+      </div>
+
+      <!-- Chat compartido: visible para todos (dibujante y adivinadores) -->
+      <div class="card draw-chat-card" id="draw-chat-card">
+        <div class="section-title">💬 Chat de la ronda</div>
+        <ul class="draw-chat" id="draw-chat"></ul>
+
+        <div class="card" id="draw-guess-card" style="display:none">
+          <label for="draw-guess-input">¿Quién es?</label>
+          <div class="chat-input-row">
+            <input type="text" id="draw-guess-input" autocomplete="off" placeholder="Escribe tu respuesta…" />
+            <button class="send-btn" onclick="submitDrawGuess()" title="Enviar" aria-label="Enviar">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="card spectator-card" id="draw-drawer-card" style="display:none">
+          <p>🎨 ¡Es tu turno de dibujar! Usa el lienzo de arriba.</p>
+          <div class="chat-input-row" style="margin-top:10px">
+            <input type="text" id="draw-drawer-chat-input" autocomplete="off" placeholder="Escribe en el chat…" />
+            <button class="send-btn" onclick="submitDrawerChat()" title="Enviar" aria-label="Enviar">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Imagen del personaje al revelar la respuesta -->
+    <div class="card draw-reveal-card" id="draw-reveal-image-card" style="display:none">
+      <img id="draw-reveal-image" class="question-image" alt="Personaje dibujado" />
+      <div class="draw-reveal-name" id="draw-reveal-name"></div>
+    </div>
+  </div>
+
+  <div id="answer-feedback" class="answer-feedback" style="display:none"></div>
+
+  <div class="answered-status" id="answered-status"></div>
+</div>
+
+<!-- ======================== SCREEN: TURN SCOREBOARD ======================== -->
+<div id="screen-turn-scoreboard" class="screen">
+  <div class="logo">
+    <h1>📊 Marcador</h1>
+  </div>
+  <div class="card">
+    <ul class="leaderboard-list" id="turn-leaderboard"></ul>
+  </div>
+  <p class="next-turn-hint" id="next-turn-hint">Siguiente turno en unos segundos…</p>
+</div>
+
+<!-- ======================== SCREEN: FINISHED ======================== -->
+<div id="screen-finished" class="screen">
+  <div class="logo">
+    <h1>🏆 Resultados finales</h1>
+  </div>
+
+  <div class="card">
+    <div class="section-title">Clasificación</div>
+    <ul class="leaderboard-list" id="final-leaderboard"></ul>
+  </div>
+
+  <div id="host-again" style="display:none">
+    <div class="btn-group">
+      <button class="btn btn-primary" onclick="playAgain()">Jugar de nuevo</button>
+      <button class="btn btn-outline" onclick="location.reload()">Salir</button>
+    </div>
+  </div>
+  <div id="guest-again" style="display:none">
+    <button class="btn btn-outline" onclick="location.reload()">Salir</button>
+  </div>
+</div>
+
+<!-- ======================== BOO BUTTON ======================== -->
+<button id="boo-btn" class="boo-btn" onclick="sendBoo()" title="Abuchear al jugador activo">
+  📣 <span>Abuchear</span>
+</button>
+<div id="boo-popup" class="boo-popup"></div>
+
+<!-- ======================== BGM TOGGLE ======================== -->
+<button id="bgm-toggle-btn" class="bgm-toggle-btn" onclick="toggleBgm()" title="Activar/desactivar música de fondo">
+  🔊 Música: ON
+</button>
+
+<!-- ======================== SOUNDS ======================== -->
+<audio id="sound-boo" src="/audio/boo.mp3" preload="auto"></audio>
+<audio id="sound-tick" src="/audio/tick.mp3" preload="auto"></audio>
+<audio id="sound-bgm" preload="auto" loop="false"></audio>
+
+<!-- ======================== TOAST ======================== -->
+<div id="toast"></div>
+
+<script src="/js/client.js"></script>
+</body>
+</html>
