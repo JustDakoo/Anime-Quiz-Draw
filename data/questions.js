@@ -1353,7 +1353,6 @@ const drawCharacters = [
   { name: "Rin Okumura (Blue Exorcist)", answers: ["blue exorcist", "rin", "okumura", "rin okumura"], image: "/images/characters/rin_okumura.jpg" },
   { name: "Koro-Sensei (Assassination Classroom)", answers: ["pulpo", "koro", "korosensei", "koro-sensei"], image: "/images/characters/koro_sensei.jpg" },
   { name: "Hanamichi Sakuragi (Slam Dunk)", answers: ["hanamachi", "sakuragi", "hanamachi sakuragi"], image: "/images/characters/hanamichi_sakuragi.jpg" }, 
-  { name: "Ban Midou (GetBackers)", answers: ["ban", "midou", "ban midou"], image: "/images/characters/ban_midou.jpg" }, 
   { name: "Sung Jin-Woo (Solo Leveling)", answers: ["sung", "sung jin woo", "sung jin", "sungjinwoo"], image: "/images/characters/sung_jin_woo.jpg" }, 
   { name: "Shōyō Hinata (Haikyu!!)", answers: ["shoyo hinata", "shoyo", "hinata"], image: "/images/characters/shoyo_hinata.jpg" },
   { name: "Ken Kaneki (Tokyo Ghoul)", answers: ["kaneki", "ken", "ken kaneki", "kaneki ken"], image: "/images/characters/ken_kaneki.jpg" }, 
