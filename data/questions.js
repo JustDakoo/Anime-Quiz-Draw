@@ -402,8 +402,8 @@ const trivia = {
       question: "¿Cuál es el verdadero nombre del personaje conocido como 'L' en Death Note?",
       options: ["L. Lawliet", "Hideki L. Ryuga", "Lind L. Taylor", "L. Mihael Keehl"],
       answer: 0,
-      isCharacterClue: true,
-      image: "https://i.imgur.com/1Xw9qaj.jpeg"
+      isCharacterClue: false,
+      image: "https://i.imgur.com/Qyg1qBY.jpeg"
     },
     {
       category: "Animes clásicos",
