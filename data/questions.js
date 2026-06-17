@@ -34,6 +34,142 @@ const trivia = {
   facil: [
     {
       category: "Personajes",
+      question: "¿Cómo se llama la protagonista de Cardcaptor Sakura?",
+      options: ["Tomoyo Daidouji","Sakura Kinomoto","Meiling Li", "Kero"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/fPGHKWW.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cuál es el arma principal de Bobobo?",
+      options: ["Sus pelos nasales","Espada sagrada","Magia de burbujas", "Transfiguración"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/nLaHdQE.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué arte marcial practica principalmente Baki Hanma?",
+      options: ["Karate","Boxeo","Ninguna en exclusiva, se adapta múltiples estilos", "Judo"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/rKPtsj4.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué número ocupa Kafka Hibino en Kaiju después de transformarse?",
+      options: ["6","7","8","9"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/thgMh1S.jpg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cómo se llama el protagonista de Gachiakuta?",
+      options: ["Zanka","Rudo","Enjin","Jabber"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/ghxZ8yT.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cuál es el verdadero nombre de Chainsaw Man?",
+      options: ["Denji","Pochita","Chainsaw Devil","Hero of Hell"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/xOcosK4.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué demonio habita originalmente en Pochita?",
+      options: ["Demonio Sierra Mecánica","Demonio Motosierra","Demonio Metal","Demonio Herramienta"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/7Vhe6Ng.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué capitán dirige los Black Bulls en Black Clover?",
+      options: ["Fuegoleon","Yami Sukehiro","Nozel Silva","William Vangeance"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/Mx77ghS.png"
+    },
+    {
+      category: "Personajes",
+      question: "En Vinland Saga, ¿quién mata a Thors?",
+      options: ["Canute","Bjorn","Askeladd","Floki"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/8R0JCsB.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué tipo de animal es Legoshi en Beastars?",
+      options: ["Lobo gris","Pastor Alemán","Conejo","Coyote"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/7d5yW6u.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cómo se llama el protagonista?",
+      options: ["Zenitsu","Tanjiro Kamado","Inosuke Hashibira","Giyu Tomioka"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/rhN6dfJ.jpg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué objeto especial tienen los personajes en Mirai Nikki?",
+      options: ["Libros del futuro","Teléfonos con diarios del futuro","Cartas mágicas","Anillos temporales"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/gX9HMoB.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿En qué se basa Pluto?",
+      options: ["En Naruto","En Astro Boy","En Dragon Ball","En Akira"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/gX9HMoB.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué fenómeno sobrenatural conecta a Mitsuha y Taki en Your Name?",
+      options: ["Viajes espaciales","Sueños compartidos", "Reencarnación inmediata", "Intercambio de cuerpos"],
+      answer: 3,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/XLAGaYn.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué instrumento toca Kaori en Your Lie in April?",
+      options: ["Piano","Flauta","Violonchelo","Violín"],
+      answer: 3,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/Ab7NP2I.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cómo se llama el protagonista de Solo Leveling?",
+      options: ["Sung Jin-Woo","Yoo Jin-Ho","Cha Hae-In","Go Gun-Hee"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/cPAzyp8.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué objeto lleva siempre Maomao en Los diarios de la Boticaria?",
+      options: ["Una daga","Medicinas y venenos experimentales","Un espejo","Un libro de astrología"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/JDYOhJv.png"
+    },
+    {
+      category: "Personajes",
       question: "¿Cómo se llama esta rana extraterrestre?",
       options: ["Dororo", "Kururu", "Tamama", "ro"],
       answer: 3,
@@ -203,6 +339,166 @@ const trivia = {
   ],
   media: [
     {
+      category: "Personajes",
+      question: "¿Cuál es el nombre de la protagonista de Kill la Kill?",
+      options: ["Satsuki Kiryuin","Nui Harime","Ryuko Matoi","Mako Mankanshoku"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/vx2kmcN.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cómo se llama el perro de Shin-Chan en su versión original?",
+      options: ["Shiro","Pochi","Kuro","Maru"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/K38j4NG.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿En qué mundo son transportados los protagonistas en No Game No Life?",
+      options: ["Disboard","Aincrad","Soul Society","Tokyo Ghoul"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/dtTlt3n.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Dónde ocurre la historia principal en Corpse Party?",
+      options: ["Un hospital","Una escuela encantada","Una isla desierta","Un bosque"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/1Np7bMN.png"
+    },
+    {
+      category: "Personajes",
+      question: "En Wistoria: Wand and Sword, ¿Qué incapacidad tiene Will?",
+      options: ["No puede usar magia ofensiva","No puede invocar familiares","No puede usar magia en absoluto","No puede volar"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/gv0NQqm.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué es un “Stand”? en Jojo's Bizarre Adventure",
+      options: ["Un arma","Una manifestación del poder espiritual","Un demonio","Una espada legendaria"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/NEc9D5H.png"
+    },
+    {
+      category: "Personajes",
+      question: "En Jujutsu Kaisen, ¿Qué técnica posee Megumi?",
+      options: ["Diez Sombras","Manipulación de Sangre","Ratio Technique","Copia"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/vUkWwdR.png"
+    },
+    {
+      category: "Personajes",
+      question: "En Tokyo Revengers, ¿qué apodo recibe Manjiro Sano?",
+      options: ["Dragon","Mikey","Black Tiger","Invincible"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/54J56bx.png"
+    },
+    {
+      category: "Personajes",
+      question: "En Berserk, ¿Cómo se llamaba la banda liderada por Griffith?",
+      options: ["Los Halcones Blancos","La Banda del Halcón","Los Cuervos Reales","Los Caballeros del Eclipse"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/N1QZFPv.png"
+    },
+    {
+      category: "Personajes",
+      question: "En Odd Taxi, ¿Cuál es la profesión de Hiroshi Odokawa?",
+      options: ["Conductor de autobús","Policía","Taxista","Médico"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/6JAJwYt.png"
+    },
+    {
+      category: "Personajes",
+      question: "En Dandadan, ¿Cómo se llama realmente Okarun?",
+      options: ["Ken Takakura","Kenji Takakura","Takumi Ken","Ken Moroboshi"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/371KI4G.png"
+    },
+    {
+      category: "Personajes",
+      question: "En Given, ¿Qué instrumento toca Mafuyu?",
+      options: ["Bajo","Batería","Guitarra","Teclado"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/BtpLUCO.png"
+    },
+    {
+      category: "Personajes",
+      question: "En Chobits, ¿Cómo se llama la persocom que encuentra Hideki?",
+      options: ["Freya","Sumomo","Chii","Yuzuki"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/HbyZBoV.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué color predomina en el EVA-01?",
+      options: ["Morado","Azul","Rojo","Blanco"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/hLB03Hs.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cómo se llama la academia principal de Kill la Kill?",
+      options: ["Kamome Academy","Honnouji Academy","Ohtori Academy","Ashford Academy"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/GEfLZ2y.png"
+    },
+    {
+      category: "Personajes",
+      question: "En Evangelion, ¿Qué organización dirige oficialmente la lucha contra los Ángeles?",
+      options: ["SEELE","Gehirn","NERV","WILLE"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/f1VTHet.png"
+    },
+    {
+      category: "Personajes",
+      question: "En Witch Hat Atelier, ¿Cómo se llama la protagonista?",
+      options: ["Tetia","Coco","Riche","Agott"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/xdLwwUm.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cuál es el verdadero nombre de Conan Edogawa en el Detective Conan?",
+      options: ["Shinichi Kudo","Heiji Hattori","Kaito Kid","Takagi Wataru"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/5CNesOt.png"
+    },
+    {
+      category: "Personajes",
+      question: "En Frieren, ¿cuál fue el oficio principal de Himmel?",
+      options: ["Mago","Sacerdote","Héroe","Guerrero"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/HRpemD9.png"
+    },
+    {
+      category: "Personajes",
+      question: "En Vanitas no Carte, ¿Qué nombre recibe el libro usado por Vanitas?",
+      options: ["Grimoire Bleu","Libro de Vanitas","Crónica Azul","Archivum"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/3v7EXan.png"
+    },
+    {
       category: "Manga y conocimiento general",
       question: "¿Cómo se denomina el estilo de dibujo de cabeza y ojos grandes y cuerpo pequeño?",
       options: ["Chibi", "Moe", "Kawaii", "Gyaaru"],
@@ -317,6 +613,174 @@ const trivia = {
   ],
 
   dificil: [
+    {
+      category: "Personajes",
+      question: "¿Quién dirigió la película Paprika?",
+      options: ["Hayao Miyazaki","Makoto Shinkai","Mamoru Hosoda","Satoshi Kon"],
+      answer: 3,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/mBIIoTg.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué personaje suele entrar en los sueños de otras personas en Paprika?",
+      options: ["Atsuko Chiba","Tokita Masuda","Osanai Tanaka","Himuro Watanabe"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/guEdsl8.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cómo se llama el cometa en Your Name?",
+      options: ["Hale-Bopp","Sirius","Tiamat","Vega"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/JRzJtme.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué Ángel aparece primero en Evangelion?",
+      options: ["Ramiel","Sachiel","Shamshel","Israfel"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/wUP4pSt.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué flor da nombre a uno de los episodios más importantes de Violet Evergarden?",
+      options: ["Camelia","Violeta","Iris","Flor de magnolia"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/AMpYFVa.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué frase famosa aparece repetidamente en Serial Experiments Lain?",
+      options: ["Open the Gate","Present Day, Present Time","Connect Yourself","Become One"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/bElk99f.png"
+    },
+    {
+      category: "Personajes",
+      question: "En Sonny Boy, ¿cómo se llama el alumno protagonista?",
+      options: ["Nozomi","Rajdhani","Nagara","Mizuho"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/GCeZRWs.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cuál es el nombre del grimorio de Asta?",
+      options: ["Grimorio Antimagia de Cinco Hojas","Grimorio Oscuro","Grimorio Demoníaco","Grimorio de Licht"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/dmNU1KW.jpg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué miembro de la familia Sakamaki aparece primero en Diabolik Lovers?",
+      options: ["Ayato","Shu","Kanato","Reiji"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/oldBK2w.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cómo se llama el arma de Nicholas D. Wolfwood en Trigun?",
+      options: ["Punisher","Redeemer","Cross Maker","Vengeance"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/eFU5SSl.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué apodo recibe Askeladd por parte de algunos guerreros?",
+      options: ["El Zorro Galés","El Mercenario","El Demonio de Gales","El Bastardo de Artorius"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/Bj3FrPS.png"
+    },
+    {
+      category: "Personajes",
+      question: "En Parasyte, ¿Dónde termina alojándose Migi?",
+      options: ["Ojo izquierdo","Corazón","Mano derecha","Columna vertebral"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/Dlcx3ks.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cómo se llama la habilidad hereditaria de los Ackerman?",
+      options: ["Instinto Titán","Despertar Ackerman","Poder del Rey","Memoria Ancestral"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/7eTLrcS.png"
+    },
+    {
+      category: "Personajes",
+      question: "En Fire Force, ¿Qué generación de piroquinético es Shinra?",
+      options: ["Primera","Segunda","Tercera","Cuarta"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/wjRaHAh.png"
+    },
+    {
+      category: "Personajes",
+      question: "En Hunter × Hunter, ¿Qué categoría Nen tiene Kurapika de forma natural?",
+      options: ["Especialización","Materialización","Emisión","Transformación"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/WVI8RkB.png"
+    },
+    {
+      category: "Personajes",
+      question: "En Osomatsu-san, ¿Cuál es el nombre del hermano más responsable del sexteto?",
+      options: ["Choromatsu","Karamatsu","Ichimatsu","Jyushimatsu"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/q9FZNMX.png"
+    },
+    {
+      category: "Personajes",
+      question: "En Mononoke, el protagonista es conocido simplemente como:",
+      options: ["El Exorcista","El Médico de las Medicinas","El Viajero","El Monje"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/7Zpp7Ln.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cómo se llama el alter ego de Rikka en Chuu2byou demo koi ga shitai?",
+      options: ["Dark Flame Master","Black Dragon Lord","Fallen Angel Lucifer","Eternal Eye Breaker"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/GLZgKc9.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Quién es realmente Yukito Tsukishiro en Sakura Card Captor?",
+      options: ["Un humano normal","La reencarnación de Clow Reed","La forma humana de Yue","Un guardián creado por Sakura"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/USntVjf.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cómo se llama el atacante misterioso en Paranoia Agent?",
+      options: ["Lil’ Slugger","Shadow Boy","Night Stalker","Golden Bat"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/34LTmqg.png"
+    },
+    {
+      category: "Personajes",
+      question: "En Detective Conan, ¿Cómo se llama el ladrón de guante blanco?",
+      options: ["Kaito Kid","Vermouth","Bourbon","Scar Akai"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/beo6Rz8.png"
+    },
     {
       category: "Personajes",
       question: "¿Qué fruta del demonio comió Trafalgar Law?",
