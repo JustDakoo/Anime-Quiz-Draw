@@ -138,6 +138,19 @@ function joinRoom() {
   connectWS(() => send({ type: "join_room", name, code }));
 }
 
+function copyInviteLink() {
+  const code = $("lobby-code").textContent.trim();
+  if (!code || code === "-----") return;
+  const url = `${location.origin}/?sala=${code}`;
+  navigator.clipboard.writeText(url).then(() => {
+    const btn = $("copy-link-btn");
+    btn.textContent = "✓ ¡Enlace copiado!";
+    setTimeout(() => btn.textContent = "🔗 Copiar enlace de invitación", 2500);
+  }).catch(() => {
+    showToast("No se pudo copiar. Copia manualmente: " + url, "error");
+  });
+}
+
 // ===== LOBBY =====
 function renderLobby(roomState) {
   $("lobby-code").textContent = roomState.code;
@@ -1393,4 +1406,14 @@ document.addEventListener("DOMContentLoaded", () => {
       $("join-section").style.display === "block" ? joinRoom() : goToCreate();
     }
   });
+
+  // Si la URL contiene ?sala=XXXXX, rellenar el código y mostrar el formulario de unirse
+  const params = new URLSearchParams(location.search);
+  const salaParam = params.get("sala");
+  if (salaParam) {
+    $("input-code").value = salaParam.toUpperCase();
+    $("join-section").style.display = "block";
+    $("input-name").focus();
+    showToast(`Código de sala ${salaParam.toUpperCase()} detectado — escribe tu nombre y únete`, "success");
+  }
 });
