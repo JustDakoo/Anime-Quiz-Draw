@@ -822,12 +822,12 @@ label { display: block; font-size: 0.85rem; color: var(--text-muted); margin-bot
   padding: 10px 16px;
   font-size: 0.85rem;
   font-weight: 700;
-  box-shadow: var(--shadow);
-  transform: translateX(120%);
-  transition: transform 0.3s ease;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
   max-width: 240px;
 }
-.boo-popup.show { transform: translateX(0); }
+.boo-popup.show { opacity: 1; pointer-events: auto; }
 
 /* ===== DRAW MODE ===== */
 .draw-canvas-card { padding: 8px; display: flex; flex-direction: column; min-height: 0; }
