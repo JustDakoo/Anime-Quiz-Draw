@@ -55,7 +55,7 @@ function playNextBgm() {
   }
   bgmIndex = next;
   bgmAudio.src = bgmTracks[bgmIndex];
-  bgmAudio.volume = 0.35;
+  bgmAudio.volume = 0.15;
   bgmAudio.play().catch(() => {});
 }
 
