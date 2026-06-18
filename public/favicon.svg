@@ -1,0 +1,10 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(50,50) rotate(-45)">
+    <polygon points="0,-42 -7,8 0,3 7,8" fill="#c0c0c0"/>
+    <line x1="0" y1="-41" x2="0" y2="7" stroke="#aaa" stroke-width="1.5"/>
+    <rect x="-5" y="7" width="10" height="4" rx="1" fill="#999"/>
+    <rect x="-4" y="11" width="8" height="16" rx="1" fill="#7a5230"/>
+    <rect x="-4" y="27" width="8" height="3" rx="1" fill="#888"/>
+    <circle cx="0" cy="34" r="4" fill="none" stroke="#888" stroke-width="2"/>
+  </g>
+</svg>
