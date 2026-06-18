@@ -935,6 +935,48 @@ const openings = [
     image: "https://i.imgur.com/01vDFzD.png"
   },
   {
+    anime: "Parasyte",
+    audio: "/audio/parasyte_op.mp3",
+    options: ["Parasyte", "Fairy Tail", "Elfen Lied", "Gintama"],
+    answer: 0,
+    image: "https://i.imgur.com/kNDSSC3.jpeg"
+  },
+  {
+    anime: "Hunter X Hunter",
+    audio: "/audio/hxh_op.mp3",
+    options: ["Another", "One Punch Man", "Hunter X Hunter", "Mob Pshycho"],
+    answer: 2,
+    image: "https://i.imgur.com/jb7dR5i.jpeg"
+  },
+  {
+    anime: "Mirai Nikki",
+    audio: "/audio/mirainikki_op.mp3",
+    options: ["Hokuto no Ken", "Mirai Nikki", "Spy X Family", "Hanako-kun"],
+    answer: 1,
+    image: "https://i.imgur.com/b6rYRLP.png"
+  },
+  {
+    anime: "Soul Eater",
+    audio: "/audio/souleater_op.mp3",
+    options: ["Link Click", "Dorohedoro", "Soul Eater", "Zom 100"],
+    answer: 2,
+    image: "https://i.imgur.com/YFcugFe.png"
+  },
+  {
+    anime: "Fire Force",
+    audio: "/audio/fireforce_op.mp3",
+    options: ["Konosuba", "Bungo Stray Dogs", "School Days", "Fire Force"],
+    answer: 3,
+    image: "https://i.imgur.com/Uf928AS.jpeg"
+  },
+  {
+    anime: "Code Geass",
+    audio: "/audio/codegeass_op.mp3",
+    options: ["Kaguya Sama", "Signs of Affection", "Code Geass", "Madoka Magica"],
+    answer: 2,
+    image: "https://i.imgur.com/9tLm8lp.png"
+  },
+  {
     anime: "Dragon Ball",
     audio: "/audio/db_op.mp3",
     options: ["Bleach", "Dragon Ball", "Parasyte", "Black Clover"],
