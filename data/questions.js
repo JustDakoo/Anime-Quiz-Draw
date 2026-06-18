@@ -1736,7 +1736,7 @@ const drawCharacters = [
   { name: "Rayquaza (Pokémon)", answers: ["rayquaza"], image: "/images/characters/rayquaza.jpg" },
   { name: "Suicune (Pokémon)", answers: ["suicune"], image: "/images/characters/suicune.jpg" },
   { name: "Groudon (Pokémon)", answers: ["groudon"], image: "/images/characters/groudon.jpg" },
-  { name: "Quiogre (Pokémon)", answers: ["quiogre"], image: "/images/characters/quiogre.jpg" },
+  { name: "Kyogre (Pokémon)", answers: ["kyogre"], image: "/images/characters/quiogre.jpg" },
   { name: "Meliodas (Nanatsu no Taizai)", answers: ["meliodas"], image: "/images/characters/meliodas.jpg" },
   { name: "Diane (Nanatsu no Taizai)", answers: ["diane", "diana", "dian"], image: "/images/characters/diane.jpg" },
   { name: "Escanor (Nanatsu no Taizai)", answers: ["escanor"], image: "/images/characters/escanor.jpg" },
