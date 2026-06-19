@@ -912,7 +912,7 @@ const trivia = {
       options: ["7", "10", "1", "11"],
       answer: 1,
       isCharacterClue: false,
-      image: "https://i.imgur.com/MNSMXiZ.jpeg"
+      image: "https://i.imgur.com/f1j6PxE.png"
     },
     {
       category: "Personajes",
@@ -1394,7 +1394,7 @@ const trivia = {
       options: ["Happy Camera", "Happy Record", "Happy Memory", "Time Device"],
       answer: 0,
       isCharacterClue: false,
-      image: "https://i.imgur.com/ynyWZ42.jpeg"
+      image: "https://i.imgur.com/mOrpyCt.png"
     },
     {
       category: "Personajes",
@@ -1595,14 +1595,6 @@ const trivia = {
       answer: 1,
       isCharacterClue: false,
       image: "https://i.imgur.com/ZjaeNcM.png"
-    },
-    {
-      category: "Personajes",
-      question: "¿Cómo se llama el bebé tutor de Tsunayoshi Sawada en Katekyo Hitman Reborn?",
-      options: ["Lambo", "Reborn", "Hibari", "Mukuro"],
-      answer: 1,
-      isCharacterClue: false,
-      image: "https://i.imgur.com/6yIaYAP.png"
     },
     {
       category: "Manga y conocimiento general",
