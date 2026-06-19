@@ -34,6 +34,30 @@ const trivia = {
   facil: [
     {
       category: "Personajes",
+      question: "¿Cómo se llama el protagonista?",
+      options: ["Mark Lenders", "Oliver Atom", "Benji Price", "Tom Baker"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/vL4nDif.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué posición juega Benji Price?",
+      options: ["Delantero", "Defensa", "Portero", "Árbitro"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/3qlg3AB.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué deporte practican en la serie?",
+      options: ["Baloncesto", "Tenis", "Fútbol", "Rugby"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/XT4VoN9.jpeg"
+    },
+    {
+      category: "Personajes",
       question: "¿Cómo se llama la protagonista de Cardcaptor Sakura?",
       options: ["Tomoyo Daidouji","Sakura Kinomoto","Meiling Li", "Kero"],
       answer: 1,
@@ -345,6 +369,22 @@ const trivia = {
       answer: 1,
       isCharacterClue: false,
       image: "https://i.imgur.com/kC6U3We.jpeg"
+    },
+    {
+      category: "Manga y conocimiento general",
+      question: "¿Qué condición deben cumplir un arma y su meister para convertirse en Death Scythe?",
+      options: ["Derrotar a un Kishin","Recolectar 99 almas corruptas y 1 alma de bruja","Superar el examen de Shibusen", "Vencer a un profesor"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/TosF74L.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cuál es la obsesión personal de Death the Kid?",
+      options: ["La perfección física","La simetría","El honor familiar", "La fuerza bruta"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/wTqh0FX.png"
     },
     {
       category: "Personajes",
