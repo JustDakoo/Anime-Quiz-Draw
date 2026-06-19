@@ -428,11 +428,19 @@ const trivia = {
   media: [
     {
       category: "Personajes",
-      question: "¿Cómo se llama la niña que antes pertenecía a la Organización Negra?",
+      question: "¿Cómo se llama la niña que antes pertenecía a la Organización Negra en Detective Conan?",
       options: ["Ran Mouri", "Ai Haibara", "Sonoko Suzuki", "Eri Kisaki"],
       answer: 1,
       isCharacterClue: false,
       image: "https://i.imgur.com/Bl8oHWg.png"
+    },
+    {
+      category: "Animes clásicos",
+      question: "¿Qué habilidad permite a ciertos personajes detectar o percibir la “longitud de onda” de otras almas en Soul Eater?",
+      options: ["Soul Resonance", "Soul Perception", "Witch Sense", "Madness Vision"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/T7wHyV3.png"
     },
     {
       category: "Personajes",
