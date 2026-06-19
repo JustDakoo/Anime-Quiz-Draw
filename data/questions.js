@@ -34,7 +34,31 @@ const trivia = {
   facil: [
     {
       category: "Personajes",
-      question: "¿Cómo se llama el protagonista?",
+      question: "¿Cómo se llama el protagonista alienígena de la historia en Takopi?",
+      options: ["Takopi", "Marupi", "Shizuka", "Azuma"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/xA06aF8.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cómo se llama la niña que conoce Takopi?",
+      options: ["Marina", "Shizuka", "Ai", "Mikako"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/oW9za8J.jpeg"
+    },
+    {
+      category: "Historia",
+      question: "¿De dónde viene Takopi?",
+      options: ["Planeta Felicidad", "Marte", "Mundo Espiritual", "Planeta Azul"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/TkvQQcA.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cómo se llama el protagonista en Oliver Y Benji?",
       options: ["Mark Lenders", "Oliver Atom", "Benji Price", "Tom Baker"],
       answer: 1,
       isCharacterClue: false,
@@ -50,7 +74,7 @@ const trivia = {
     },
     {
       category: "Personajes",
-      question: "¿Qué deporte practican en la serie?",
+      question: "¿Qué deporte practican en el anime Oliver Y Benji?",
       options: ["Baloncesto", "Tenis", "Fútbol", "Rugby"],
       answer: 2,
       isCharacterClue: false,
@@ -426,6 +450,30 @@ const trivia = {
     },
   ],
   media: [
+    {
+      category: "Personajes",
+      question: "¿Cómo se llama el perro de Shizuka en Takopi?",
+      options: ["Happy", "Chappy", "Pochi", "Momo"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/O5yCefq.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cómo se llama una de las compañeras que causa conflictos con Shizuka en Takopi?",
+      options: ["Marina", "Naoki", "Azuma", "Kaede"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/iOwq9Ji.jpeg"
+    }, 
+    {
+      category: "Personajes",
+      question: "¿Qué suele usar Takopi para intentar solucionar problemas?",
+      options: ["Tecnología feliz",  "Magia" , "Cartas" , "Cristales" ],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/WYTD2xL.jpeg"
+    },
     {
       category: "Personajes",
       question: "¿Cómo se llama la niña que antes pertenecía a la Organización Negra en Detective Conan?",
