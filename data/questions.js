@@ -576,8 +576,72 @@ const trivia = {
       isCharacterClue: false,
       image: "https://i.imgur.com/Fdp1KfH.jpeg"
     },
+    {
+      category: "Personajes",
+      question: "¿Qué arma utiliza principalmente Rin Okumura para contener su verdadero poder en Ao no Exorcist?",
+      options: ["Una katana", "Una lanza bendita", "Un rosario", "Un grimorio"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/GRmxka9.jpeg"
+    },
   ],
   media: [
+    {
+      category: "Personajes",
+      question: "¿Cuál es la única técnica de la Respiración del Rayo que Zenitsu Agatsuma domina al principio de la historia de Demon Slayer: Kimetsu no Yaiba?",
+      options: ["Segunda Forma: Bola de Trueno Ardiente", "Tercera Forma: Enjambre de Truenos", "Primera Forma: Destello del Trueno", "Sexta Forma: Rayo y Relámpago"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/gzuNEox.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué rasgo distingue a Mephisto Pheles en Ao no Exorcist?",
+      options: ["Su obsesión por la disciplina", "Su comportamiento impredecible y teatral", "Su odio a los demonios", "Su rechazo a la academia"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/TJOLCiR.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cómo se llama el protagonista de Hi Score Girl?",
+      options: ["Haruo Yaguchi", "Makoto Ono", "Akira Yagami", "Rensuke Hidaka"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/0jLDI7T.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cuál es el videojuego de lucha más importante en la serie de Hi Score Girl?",
+      options: ["Tekken", "Street Fighter II", "Fatal Fury", "Virtua Fighter"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/6YVPWM2.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué caracteriza normalmente a Akira Ono?",
+      options: ["Habla muchísimo", "Es silenciosa pero muy competitiva", "Odia jugar", "Siempre pierde"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/Ml6ybzE.jpeg"
+    }, 
+    {
+      category: "Personajes",
+      question: "¿Qué especialización de exorcista busca dominar Yukio Okumura principalmente?",
+      options: ["Tamer", "Knight", "Doctor", "Dragoon"],
+      answer: 3,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/almu6P5.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué rasgo caracteriza a Elfaria Albis Serfort dentro del mundo mágico?",
+      options: ["Su capacidad de curación global", "Su talento excepcional con la magia", "Su dominio de la espada antigua", "Su control sobre monstruos de mazmorra"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/nKNCOOT.png"
+    },
     {
       category: "Personajes",
       question: "¿Qué equipo lidera Ryosuke Takahashi?",
@@ -1146,8 +1210,48 @@ const trivia = {
       isCharacterClue: false,
       image: "https://i.imgur.com/nabPmZi.jpeg"
     },
+    {
+      category: "Personajes",
+      question: "¿Qué describe mejor la actitud inicial de Colette Loire hacia Will en Wistoria?",
+      options: ["Desprecio", "Indiferencia", "Apoyo y preocupación", "Competencia directa"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/utA6TJf.png"
+    },
   ],
   dificil: [
+    {
+      category: "Personajes",
+      question: "¿Qué familiar acompaña a Rin con frecuencia en Ao no Exorcist?",
+      options: ["Kuro", "Nee", "Mike", "Neko"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/N0D1xvg.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Quién es el demonio que habita en el grimorio de Asta en Black Clover?",
+      options: ["Zagred", "Liebe", "Lucifero", "Nacht"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/TSDFHyj.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué simboliza la diferencia entre Will y Elfaria en la historia?",
+      options: ["El conflicto entre dos reinos que siempre han sido enemigos", "La distancia entre dos caminos hacia la grandeza", "La lucha entre las magias blanca y negra", "El choque entre tradición y modernidad"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/6BWdlHt.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿De qué portador del One For All es el quirk Latigo Negro?",
+      options: ["Nana Shimura", "Daigoro Banjo", "Toshinori Yagi", "Hikage Shinomori"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/1NGqLXU.jpeg"
+    },
     {
       category: "Personajes",
       question: "¿En Tougen Anki ¿que agencia persigue a los Oni?",
