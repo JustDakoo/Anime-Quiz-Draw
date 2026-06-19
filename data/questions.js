@@ -34,6 +34,30 @@ const trivia = {
   facil: [
     {
       category: "Personajes",
+      question: "¿Qué habilidad especial tiene Mob en Mob Psycho 100?",
+      options: ["Telepatía", "Poderes psíquicos", "Control del tiempo", "Super velocidad"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/9OnfJcK.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cuál es la profesión de Reigen en Mob Psycho 100?",
+      options: ["Profesor", "Detective", "Exorcista y consejero", "Policía"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/qNWIWX3.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué espíritu acompaña frecuentemente a Mob en Mob Psycho 100?",
+      options: ["Dimple", "Ekubo", "Musashi", "Suzuki"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/MkbkSBq.jpeg"
+    },
+    {
+      category: "Personajes",
       question: "¿Cómo se llama el protagonista alienígena de la historia en Takopi?",
       options: ["Takopi", "Marupi", "Shizuka", "Azuma"],
       answer: 0,
@@ -452,6 +476,30 @@ const trivia = {
   media: [
     {
       category: "Personajes",
+      question: "¿Qué organización aparece como principal grupo antagonista en Mob Psycho 100?",
+      options: ["Garra", "Escorpión", "Fantasma", "Nexus"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/Eh89GYX.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué estado aparece cuando Mob pierde completamente el control en Mob Psycho 100?",
+      options: ["???%", "150%", "200%", "∞"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/qSngPE4.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué club escolar elige Mob en lugar del club paranormal en Mob Psycho 100?",
+      options: ["Club de atletismo", "Club de mejora física", "Club de fútbol", "Club de ajedrez"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/VXV4JBD.jpeg"
+    },
+    {
+      category: "Personajes",
       question: "¿Cómo se llama el perro de Shizuka en Takopi?",
       options: ["Happy", "Chappy", "Pochi", "Momo"],
       answer: 1,
@@ -845,6 +893,30 @@ const trivia = {
   ],
 
   dificil: [
+    {
+      category: "Personajes",
+      question: "¿Cómo se llama el dispositivo que Takopi usa repetidamente para intentar cambiar los acontecimientos?",
+      options: ["Happy Camera", "Happy Record", "Happy Memory", "Time Device"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/ynyWZ42.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué intenta evitar Takopi durante gran parte de la historia?",
+      options: ["Que Shizuka siga sufriendo", "Volver a casa", "Que descubran su identidad", "Perder sus objetos"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/iiFQdGa.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cuál es uno de los temas centrales de Takopi's Original Sin?",
+      options: ["Comprender y acompañar el dolor de otros", "La competición deportiva", "La exploración espacial", "La conquista del mundo"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/vB5MMQa.jpeg"
+    },
     {
       category: "Personajes",
       question: "¿Quién dirigió la película Paprika?",
