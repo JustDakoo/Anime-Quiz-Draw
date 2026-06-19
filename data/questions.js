@@ -340,6 +340,30 @@ const trivia = {
   media: [
     {
       category: "Personajes",
+      question: "¿Ranma es chico o chica normalmente?",
+      options: ["Chica","Chico","Las dos siempre", "Ninguna"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/kC6U3We.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Con qué agua vuelve Ranma a ser chico?",
+      options: ["Agua fría","Agua caliente","Agua salada","Agua con hielo"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/0Dv9R1i.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "En qué animal se convierte el padre de Ranma?",
+      options: ["Cerdo","Gato","Perro","Panda"],
+      answer: 3,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/Rub2KTk.jpeg"
+    },
+    {
+      category: "Personajes",
       question: "¿Cuál es el nombre de la protagonista de Kill la Kill?",
       options: ["Satsuki Kiryuin","Nui Harime","Ryuko Matoi","Mako Mankanshoku"],
       answer: 2,
