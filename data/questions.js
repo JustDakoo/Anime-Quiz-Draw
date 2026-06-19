@@ -596,6 +596,14 @@ const trivia = {
   media: [
     {
       category: "Personajes",
+      question: "¿Cuál es la misión principal de Bobobo al comienzo?",
+      options: ["Encontrar a su padre", "Detener la caza del cabello", "Convertirse en rey", "Vencer al imperio de la gelatina"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/nfmNPLb.png"
+    },
+    {
+      category: "Personajes",
       question: "¿Cuál es la primera prueba que Gon realiza durante el Examen de Cazador en Hunter × Hunter?",
       options: ["Derrotar a un oponente en combate", "Resolver un acertijo de los examinadores", "Seguir una larga carrera guiada sin rendirse", "Atrapar una bestia mágica"],
       answer: 2,
