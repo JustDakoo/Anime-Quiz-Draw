@@ -34,6 +34,14 @@ const trivia = {
   facil: [
     {
       category: "Personajes",
+      question: "¿Qué característica hace conocido a Will Serfort dentro de la academia en un inicio en Wistoria?",
+      options: ["Su enorme reserva mágica", "Su incapacidad para usar magia", "Su dominio de magia antigua", "Su habilidad para invocar bestias"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/1yP0GiQ.png"
+    },
+    {
+      category: "Personajes",
       question: "¿Qué habilidad especial tiene Mob en Mob Psycho 100?",
       options: ["Telepatía", "Poderes psíquicos", "Control del tiempo", "Super velocidad"],
       answer: 1,
@@ -472,8 +480,224 @@ const trivia = {
       isCharacterClue: false,
       image: "https://i.imgur.com/VhBmxRu.jpeg"
     },
+    {
+      category: "Personajes",
+      question: "¿Cómo se llama el protagonista de Chainsaw Man?",
+      options: ["Aki Hayakawa", "Denji", "Power", "Kishibe"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/JVlAVSG.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Con qué demonio hace contrato Denji al inicio en Chainsaw Man?",
+      options: ["Demonio Zorro", "Pochita", "Demonio Pistola", "Demonio Fantasma"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/whUqBHR.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué objeto tira Denji para transformarse en Chainsaw Man?",
+      options: ["Una espada", "La cuerda del pecho", "Un cuchillo", "Una moneda"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/EUKVdeV.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cómo se llama el protagonista masculino de Dan Da Dan?",
+      options: ["Jiji", "Ken Takakura", "Seiko", "Turbo Granny"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/5XXj6cA.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cómo llama Momo normalmente a Ken en Dan Da Dan?",
+      options: ["Takakura", "Okarun", "Kenji", "Taro"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/CaFdoFW.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cómo se llama la protagonista femenina en Dan Da Dan?",
+      options: ["Momo Ayase", "Aira", "Seiko", "Rin"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://imgur.com/a/ULIgYqR"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cómo se llama la protagonista robot de Doctor Slump?",
+      options: ["Arale Norimaki", "Midori", "Akane", "Obotchaman"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/CYOyweP.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cómo llaman normalmente al creador de Arale?",
+      options: ["Profesor", "Doctor Slump", "Señor Robot", "Científico loco"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/eiqdv4P.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué tipo de personaje es Arale en Doctor Slump?",
+      options: ["Alien", "Robot", "Fantasma", "Humana"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/eiqdv4P.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cómo se llama el protagonista de Initial D?",
+      options: ["Keisuke Takahashi", "Takumi Fujiwara", "Ryosuke Takahashi", "Itsuki Takeuchi"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/5Z9Mk8I.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué coche conduce Takumi?",
+      options: ["Toyota AE86", "Mazda RX-7", "Nissan Skyline", "Honda NSX"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/mZXsEpe.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué entregaba Takumi cada mañana antes del instituto?",
+      options: ["Leche", "Ramen", "Tofu", "Pan"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/Fdp1KfH.jpeg"
+    },
   ],
   media: [
+    {
+      category: "Personajes",
+      question: "¿Qué equipo lidera Ryosuke Takahashi?",
+      options: ["Night Kids", "Emperor", "RedSuns", "SpeedStars"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/HPZgmGA.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿En qué montaña corre normalmente Takumi?",
+      options: ["Akina", "Akagi", "Usui", "Myogi"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/BVBPmdq.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué técnica hace destacar a Takumi?",
+      options: ["Drift", "Nitro", "Turbo Jump", "Brake Spin"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/fAcJ0wx.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cómo se llama el pueblo donde ocurre la historia en Doctor Slump?",
+      options: ["Villa Pingüino", "Villa Robot", "Ciudad Cápsula", "Neo Tokio"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/MYWgZV7.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué habilidad absurda tiene Arale frecuentemente en Doctor Slump?",
+      options: ["Control del fuego", "Súper fuerza", "Leer mentes", "Teletransporte"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/CYOyweP.jpeg"
+    },
+    {
+      category: "Manga y conocimiento general",
+      question: "¿Con qué otra obra de Akira Toriyama tiene Arale un famoso crossover?",
+      options: ["Dragon Quest", "Dragon Ball", "Sand Land", "Cowa!"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/xxbN26H.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿En qué cree Momo al principio de la historia en Dan Da Dan?",
+      options: ["Extraterrestres", "Yokai" , "Robots", "Viajes temporales"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/SlJbX1k.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿En qué cree Okarun al principio de la historia en Dan Da Dan?",
+      options: ["Extraterrestres", "Yokai", "Monstruos marinos", "Magia"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/F8Ylrx9.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué tipo de seres aparecen constantemente en Dan Da Dan?",
+      options: ["Solo fantasmas", "Solo extraterrestres", "Yokai y extraterrestres", "Solo demonios"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/SlJbX1k.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cómo se llama la compañera que tiene cuernos y ama la sangre en Chainsaw Man?",
+      options: ["Makima", "Reze", "Power", "Kobeni"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/VEJir3q.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué compañero de Denji usa una espada y tiene coleta en Chainsaw Man?",
+      options: ["Kishibe Hayakawa", "Beam Hayakawa", "Aki Hayakawa", "Yoshida Hayakawa"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/8vEpcrU.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué demonio busca gran parte de la historia en Chainsaw Man?",
+      options: ["Demonio Pistola", "Demonio Control", "Demonio Futuro", "Demonio Bomba"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/p75SPYv.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿En la famosa serie -Aquella vez que me convertí en slime- ¿quien es el primer amigo de Rimuru?",
+      options: ["Benimaru", "Veldora", "Gobta", "Hakuro"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/XPKcRhi.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Quien es el personaje mas joven de los cuatro?",
+      options: ["Meruem", "Frieren", "Killua", "Coco"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/fsgUYcx.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cuál es el objetivo principal de Will al entrar en la academia en Wistoria?",
+      options: ["Convertirse en profesor", "Encontrar un grimorio legendario", "Alcanzar la cima de la Torre", "Derrotar al director"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/D8ZiPfO.png"
+    },
     {
       category: "Personajes",
       question: "¿Qué organización aparece como principal grupo antagonista en Mob Psycho 100?",
@@ -890,9 +1114,72 @@ const trivia = {
       isCharacterClue: false,
       image: "https://i.imgur.com/0LbWf7W.png"
     },
+    {
+      category: "Personajes",
+      question: "¿Cuál es la función principal de Shibusen en Soul Eater?",
+      options: ["Gobernar el mundo de las brujas", "Crear armas legendarias", "Mantener el equilibrio y evitar el caos", "Capturar humanos normales"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/VRvtTUc.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cómo se llama el protagonista de FLCL?",
+      options: ["Naota Nandaba", "Mamimi Samejima", "Canti", "Amarao"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/Hve2CCq.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué instrumento suele usar Haruko como arma EN FLCL?",
+      options: ["Batería", "Bajo eléctrico", "Guitarra eléctrica", "Violín"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/EM3lOE9.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué sale repetidamente de la cabeza de Naota en FLCL?",
+      options: ["Poderes psíquicos", "Robots y objetos extraños", "Fuego", "Portales"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/nabPmZi.jpeg"
+    },
   ],
-
   dificil: [
+    {
+      category: "Personajes",
+      question: "¿En Tougen Anki ¿que agencia persigue a los Oni?",
+      options: ["Agencia Ryotaro", "Agencia Jotaro", "Agencia Momotaro", "Agencia Kintaro"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/YnnkAIZ.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué característica distingue el estilo de pelea de Franken Stein en Soul Eater?",
+      options: ["Uso exclusivo de magia", "Técnicas de sellado y control mental", "Velocidad extrema y control de las llamas", "Análisis y experimentación sobre la marcha"],
+      answer: 3,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/f7Betdw.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué profesor de Shibusen tiene fama de ser extremadamente serio y disciplinado en Soul Eater?",
+      options: ["Sid Barrett", "Stein", "Spirit Albarn", "Marie Mjolnir"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/HkXz9sP.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué concepto representa uno de los mayores peligros en combate dentro de Soul Eater?",
+      options: ["El vacío", "La locura", "El tiempo", "La oscuridad"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/bh5XrIP.png"
+    },
     {
       category: "Personajes",
       question: "¿Cómo se llama el dispositivo que Takopi usa repetidamente para intentar cambiar los acontecimientos?",
