@@ -360,8 +360,120 @@ const trivia = {
       isCharacterClue: false,
       image: "https://i.imgur.com/xiNAPe5.jpeg"
     },
+    {
+      category: "Personajes",
+      question: "¿Cómo se llama realmente Conan?",
+      options: ["Kaito Kid", "Shinichi Kudo", "Heiji Hattori", "Kogoro Mori"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/J0lJ5Sy.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿En qué se convierte Shinichi después de tomar el veneno en Detective Conan?",
+      options: ["Anciano", "Niño", "Detective", "Fantasma"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/uz23VsC.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Quién es el padre de Ran en Detective Conan?",
+      options: ["Heiji Hattori", "Kogoro Mori", "Agasa", "Gin"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/oq157mo.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué arma demoníaca es compañera de Maka Albarn en Soul Eater?",
+      options: ["Tsubaki", "Patty", "Soul", "Liz"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/XaeAJzG.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cómo se llama el compañero de Natsu en Fairy Tail?",
+      options: ["Tenshi", "Happy", "Neko", "Tsubaki"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/vDmVDWc.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cómo se llama la protagonista que viaja desde el futuro en Inuyasha?",
+      options: ["Kagome", "Sango", "Kikyo", "Kaede"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/ex3wLsR.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué tipo de ser es Inuyasha?",
+      options: ["Humano", "Demonio completo", "Mitad demonio", "Espíritu"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/9VFeIwr.jpeg"
+    },
+    {
+      category: "Objetos",
+      question: "¿Qué objeto buscan durante gran parte de la serie Inuyasha?",
+      options: ["Perla de Shikon", "Espada del Dragón", "Esfera Oscura", "Cristal Sagrado"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/VhBmxRu.jpeg"
+    },
   ],
   media: [
+    {
+      category: "Personajes",
+      question: "¿Cómo se llama la niña que antes pertenecía a la Organización Negra?",
+      options: ["Ran Mouri", "Ai Haibara", "Sonoko Suzuki", "Eri Kisaki"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/Bl8oHWg.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Quién inventa muchos de los gadgets de Conan?",
+      options: ["Kogoro Mori", "Profesor Agasa", "Heiji Hattori", "Gin"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/QpxglCN.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué accesorio usa Conan para cambiar su voz?",
+      options: ["Gafas", "Pajarita", "Auriculares", "Sombrero"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/As4Z5EO.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Quién es el gran rival y delantero potente de Oliver?",
+      options: ["Tom Baker", "Bruce Harper", "Mark Lenders", "Julian Ross"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/zbvnV4h.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué posición juega normalmente Oliver Atom?",
+      options: ["Portero", "Delantero", "Defensa", "Entrenador"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/oNZlhX5.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué dorsal suele llevar Oliver Atom?",
+      options: ["7", "10", "1", "11"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/MNSMXiZ.jpeg"
+    },
     {
       category: "Personajes",
       question: "¿Ranma es chico o chica normalmente?",
