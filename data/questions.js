@@ -2,8 +2,16 @@ const trivia = {
   facil: [
     {
       category: "Personajes",
+      question: "¿Qué tipo de magia utiliza el Rey Mago Julius Novachrono en Black Clover?",
+      options: ["Magia de la Luz", "Su incapacidad para usar magia", "Su dominio de magia antigua", "Su habilidad para invocar bestias"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/SDcxT0v.png"
+    },
+    {
+      category: "Personajes",
       question: "¿Qué característica hace conocido a Will Serfort dentro de la academia en un inicio en Wistoria?",
-      options: ["Su enorme reserva mágica", "Su incapacidad para usar magia", "Su dominio de magia antigua", "Su habilidad para invocar bestias"],
+      options: ["Su enorme reserva mágica", "Magia del Tiempo", "Magia Espacial", "Magia de Gravedad"],
       answer: 1,
       isCharacterClue: false,
       image: "https://i.imgur.com/1yP0GiQ.png"
@@ -552,8 +560,72 @@ const trivia = {
       isCharacterClue: false,
       image: "https://i.imgur.com/GRmxka9.jpeg"
     },
+    {
+      category: "Personajes",
+      question: "¿Qué miembro de The Seven Deadly Sins posee el Pecado del León de la Soberbia?",
+      options: ["Ban", "Meliodas", "Escanor", "King"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/5xcnr6i.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué líder de gimnasio, que además es un chico, acompaña a Ash durante su viaje en Pokémon?",
+      options: ["Brock", "Lt. Surge", "Erika", "Blaine"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/03XKu5y.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cómo se llaman los dos miembros humanos del Equipo Rocket en Pokémon?",
+      options: ["Jessie y James", "Butch y Cassidy", "Max y May", "Ash y Misty"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/Qsf1hXR.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué organización intenta robar a Pikachu constantemente en Pokémon?",
+      options: ["Equipo Aqua", "Equipo Rocket", "Equipo Magma", "Equipo Plasma"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/Qsf1hXR.jpeg"
+    },
   ],
   media: [
+    {
+      category: "Personajes",
+      question: "¿Cuál es la primera prueba que Gon realiza durante el Examen de Cazador en Hunter × Hunter?",
+      options: ["Derrotar a un oponente en combate", "Resolver un acertijo de los examinadores", "Seguir una larga carrera guiada sin rendirse", "Atrapar una bestia mágica"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/9bLFMxK.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué región recorren en la primera temporada?",
+      options: ["Johto", "Kanto", "Hoenn", "Sinnoh"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/UI9sWTk.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cuántas medallas necesita Ash para entrar en la Liga Pokémon?",
+      options: ["6", "10", "8", "12"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/RDhjKjO.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué Pokémon de Misty suele salir accidentalmente de su Poké Ball?",
+      options: ["Staryu", "Goldeen", "Psyduck", "Horsea"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/cn19cmd.jpeg"
+    },
     {
       category: "Personajes",
       question: "¿Cuál es la única técnica de la Respiración del Rayo que Zenitsu Agatsuma domina al principio de la historia de Demon Slayer: Kimetsu no Yaiba?",
@@ -1188,6 +1260,62 @@ const trivia = {
     },
   ],
   dificil: [
+    {
+      category: "Personajes",
+      question: "¿Qué Pokémon abandona Ash para que pueda vivir libre con los de su especie?",
+      options: ["Bulbasaur", "Charmander", "Butterfree", "Kingler"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/UUVUCPj.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Contra qué Pokémon pierde Ash en la Liga Índigo de forma inesperada?",
+      options: ["Blastoise", "Charizard", "Pikachu", "Arcanine"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/EiZp4iC.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cuál era el objetivo inicial de Jessie antes de entrar al Equipo Rocket?",
+      options: ["Ser enfermera", "Ser coordinadora", "Ser entrenadora Pokémon", "Ser actriz"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/y9qXC1s.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué relación tiene Makoto Misumi con la diosa en Tsukimichi: Moonlit Fantasy?",
+      options: ["Es su hijo", "Es su elegido para convertirse en héroe", "La diosa lo invoca a otro mundo, pero lo rechaza por considerarlo feo", "Es su hermano menor"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/Wfh57sM.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cuál es el objetivo principal de la Academia True Cross en Ao no Exorcist?",
+      options: ["Entrenar políticos para crear el nuevo orden mundial", "Crear armas sagradas útiles contra los demonios", "Formar exorcistas para combatir demonios", "Entrenar demonios para sellar portales dimensionales"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/tNvunIq.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué estudio de animación produjo el anime Solo Leveling?",
+      options: ["MAPPA", "Ufotable", "A-1 Pictures", "Studio Pierrot"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/FDvdK29.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué caracteriza el estilo de combate de Ryuji Suguro en Ao no Exorcist?",
+      options: ["Invocaciones veloces", "Uso de sutras y fuego", "Combate físico puro", "Maldiciones silenciosas"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/IMDZ4XV.png"
+    },
     {
       category: "Personajes",
       question: "¿Qué familiar acompaña a Rin con frecuencia en Ao no Exorcist?",
