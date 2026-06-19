@@ -1,35 +1,3 @@
-// ============================================================
-// BANCO DE DATOS DEL JUEGO
-// ============================================================
-//
-// 1) trivia      -> Preguntas tipo test (Etapa 1), agrupadas por dificultad
-// 2) openings    -> Preguntas de "adivina el opening" (Etapa 2)
-// 3) photoRounds -> Preguntas de "adivina el anime por la imagen" (Etapa 3)
-// 4) animeList   -> Lista de animes para el autocompletado del cuadro de texto
-//
-// IMPORTANTE SOBRE IMÁGENES Y AUDIO:
-// Los campos "image" están rellenos con URLs de ejemplo de
-// Wikipedia/Wikimedia Commons (de uso libre). Para los openings
-// necesitarás subir tus propios clips de audio (mp3/ogg) a la
-// carpeta public/audio/ y poner aquí la ruta, por ejemplo:
-// "/audio/naruto_op1.mp3"
-// Para las fotos de personajes/escenas, sustituye las URLs por las
-// tuyas siguiendo el mismo formato (array de 5, de más difícil a más
-// fácil, siendo la última el logo del anime).
-// ============================================================
-
-// ---------------------------------------------------------------
-// 1) TRIVIA - preguntas tipo test, organizadas por dificultad
-// ---------------------------------------------------------------
-// Campos:
-//  - category: para mostrar un badge
-//  - question: texto de la pregunta
-//  - options: array de 4 opciones
-//  - answer: índice (0-3) de la opción correcta
-//  - isCharacterClue: true si la imagen es una PISTA para adivinar
-//        (ej. una foto del personaje del que se pregunta).
-//        Si es false/no existe, la imagen es solo CONTEXTO del anime.
-//  - image: URL de la imagen (contexto o pista)
 const trivia = {
   facil: [
     {
@@ -1607,20 +1575,13 @@ const trivia = {
   ]
 };
 
-// Puntos y penalización por dificultad
 const DIFFICULTY_CONFIG = {
   facil:   { points: 100, label: "Fácil" },
   media:   { points: 200, label: "Media" },
   dificil: { points: 300, label: "Difícil" }
 };
-// Si fallas, pierdes la mitad de los puntos que ibas a ganar
 const WRONG_PENALTY_RATIO = 0.5;
 
-// ---------------------------------------------------------------
-// 2) OPENINGS - adivina el anime por su opening (audio)
-// ---------------------------------------------------------------
-// audio: ruta a tu archivo mp3/ogg (colócalo en public/audio/)
-// options: 4 animes, uno de ellos es el correcto
 const openings = [
   {
     anime: "Naruto",
@@ -1736,12 +1697,6 @@ const openings = [
   }
 ];
 
-// ---------------------------------------------------------------
-// 2b) ORIGINAL SOUNDTRACKS (OST) - adivina el anime por su banda sonora
-// ---------------------------------------------------------------
-// Funciona exactamente igual que "openings": coloca tus clips de
-// banda sonora (mp3/ogg) en public/audio/osts/ y referencia aquí su
-// ruta. options: 4 animes, uno de ellos es el correcto.
 const osts = [
   {
     anime: "Naruto",
@@ -1801,17 +1756,6 @@ const osts = [
   }
 ];
 
-// ---------------------------------------------------------------
-// 3) PHOTO ROUNDS - adivina el anime con autocompletado y pistas
-// ---------------------------------------------------------------
-// images: array de 5 URLs, de la MÁS DIFÍCIL (índice 0) a la MÁS
-// FÁCIL. La imagen [4] (la 5ª) debe ser el LOGO/portada del anime,
-// que ya prácticamente da la respuesta directamente.
-//
-// NOTA: por defecto se repite la misma imagen en las 5 posiciones
-// como placeholder. Sustitúyelas por capturas/recortes propios,
-// ordenados de más críptico (zoom muy cerrado, sin contexto) a
-// menos críptico, terminando siempre en el logo del anime.
 const photoRounds = [
   {
     anime: "One Piece",
@@ -1895,12 +1839,6 @@ const photoRounds = [
   }
 ];
 
-// ---------------------------------------------------------------
-// 4) ANIME LIST - para el autocompletado del cuadro de texto
-// ---------------------------------------------------------------
-// Lista amplia para que el desplegable tenga sentido al escribir
-// letras (ej. escribir "B" debe sugerir Bleach, Boku no Hero
-// Academia, Boku Dake ga Inai Machi, etc.)
 const animeList = [
 "A Certain Magical Index", 
 "A Certain Scientific Railgun", 
@@ -2285,9 +2223,6 @@ const animeList = [
 "Zom 100: Bucket List of the Dead"
 ];
 
-// ---------------------------------------------------------------
-// 5) DRAW CHARACTERS - para el modo "Draw"
-// ---------------------------------------------------------------
 const drawCharacters = [
   { name: "Monkey D. Luffy (One Piece)", answers: ["luffy", "monkey d. luffy", "monkey d luffy"], image: "/images/characters/monkey_d_luffy.jpg" },
   { name: "Usopp (One Piece)", answers: ["usop", "usopp"], image: "/images/characters/usopp.jpg" },
@@ -2575,13 +2510,6 @@ const drawCharacters = [
   { name: "Benjamin Netanyahu (Ministro de Israel)", answers: ["benjamin", "netanyahu", "benjamin netanyahu"], image: "/images/characters/benjamin_netanyahu.jpg" }
 ];
 
-// ---------------------------------------------------------------
-// 6) BGM TRACKS - música de fondo durante toda la partida
-// ---------------------------------------------------------------
-// Añade aquí los nombres de tus archivos de música (colócalos en
-// public/audio/bgm/). Se reproducirán en bucle y en orden aleatorio
-// desde que empieza la partida hasta que se muestran los resultados
-// finales. Déjalo vacío [] si no quieres música de fondo.
 const bgmTracks = [
   "/audio/bgm/Light Theme D.mp3",
 ];
