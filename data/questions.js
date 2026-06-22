@@ -10,6 +10,14 @@ const trivia = {
     },
     {
       category: "Personajes",
+      question: "¿Qué rol suele cumplir Beauty dentro del grupo en Bobobo?",
+      options: ["Es una gran estratega", "Es la que pelea mejor", "Aporta cordura", "Es la sanadora"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/JDwcIiH.png"
+    },
+    {
+      category: "Personajes",
       question: "¿Qué característica hace conocido a Will Serfort dentro de la academia en un inicio en Wistoria?",
       options: ["Su enorme reserva mágica", "Magia del Tiempo", "Magia Espacial", "Magia de Gravedad"],
       answer: 1,
