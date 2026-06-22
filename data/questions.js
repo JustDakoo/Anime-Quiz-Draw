@@ -10,6 +10,14 @@ const trivia = {
     },
     {
       category: "Personajes",
+      question: "¿Qué función cumple un Gigai en Bleach?",
+      options: ["Amplificar reiatsu", "Servir como cuerpo artificial para un Shinigami", "Sellar Hollows dentro de un cadáver", "Crear portales al Hueco Mundo"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/eBkx9d3.png"
+    },
+    {
+      category: "Personajes",
       question: "¿Qué rol suele cumplir Beauty dentro del grupo en Bobobo?",
       options: ["Es una gran estratega", "Es la que pelea mejor", "Aporta cordura", "Es la sanadora"],
       answer: 2,
@@ -1323,6 +1331,14 @@ const trivia = {
       answer: 2,
       isCharacterClue: false,
       image: "https://i.imgur.com/UUVUCPj.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué división del Gotei 13 se especializa principalmente en investigación y desarrollo en Bleach?",
+      options: ["Segunda División", "Cuarta División", "Duodécima División", "Octava División"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/ujUXYjC.png"
     },
     {
       category: "Personajes",
