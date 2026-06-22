@@ -1308,7 +1308,7 @@ const trivia = {
     },
     {
       category: "Personajes",
-      question: "¿Qué detalle suele hacer cómica a Torpedo Girl pese a ser peligrosa?",
+      question: "¿Qué detalle suele hacer cómica a Torpedo Girl de Bobobo pese a ser peligrosa?",
       options: ["Su incapacidad para frenar", "Su miedo a Bobobo", "Su obsesión con la moda", "Su mala memoria"],
       answer: 0,
       isCharacterClue: false,
@@ -1323,6 +1323,14 @@ const trivia = {
       answer: 2,
       isCharacterClue: false,
       image: "https://i.imgur.com/UUVUCPj.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué contradicción define gran parte del humor de Dengakuman en Bobobo?",
+      options: ["Tiene aspecto ridículo pero actúa como un héroe", "Parece débil pero se transforma en un gigante devora humanos", "Parece sabio pero siempre se equivoca", "Parece tonto pero es el mas sabio y el mas fuerte del grupo"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/s2prIoU.png"
     },
     {
       category: "Personajes",
