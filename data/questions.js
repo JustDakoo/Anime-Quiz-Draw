@@ -1306,6 +1306,14 @@ const trivia = {
       isCharacterClue: false,
       image: "https://i.imgur.com/utA6TJf.png"
     },
+    {
+      category: "Personajes",
+      question: "¿Qué detalle suele hacer cómica a Torpedo Girl pese a ser peligrosa?",
+      options: ["Su incapacidad para frenar", "Su miedo a Bobobo", "Su obsesión con la moda", "Su mala memoria"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/641AQRt.png"
+    },
   ],
   dificil: [
     {
