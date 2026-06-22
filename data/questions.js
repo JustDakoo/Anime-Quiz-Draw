@@ -1294,6 +1294,14 @@ const trivia = {
     },
     {
       category: "Personajes",
+      question: "¿Cómo surge este personaje en la serie Bobobo?",
+      options: ["De la fusión de Bobobo y Don Patch", "De la fusión de Tokoro Tennosuke y Heppokomaru", "De la fusión de Bo-bobo, Don Patch y Tennosuke", "De la fusión de Don Patch, Heppokomaru y Bobobo"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/jgNi8VU.png"
+    },
+    {
+      category: "Personajes",
       question: "¿Por qué Heppokomaru a veces entra en su “modo estúpido” en Bobobo?",
       options: ["Se convierte cada vez que pierde la consciencia durante un combate", "Se convierte cada vez que ve a Beauty en una pose sexy", "Porque se queda sin oxígeno en el cerebro por contener demasiado gas", "Porque Bobobo lo hipnotiza abriendo su pelo afro"],
       answer: 2,
