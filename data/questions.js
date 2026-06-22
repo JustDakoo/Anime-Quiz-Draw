@@ -1326,6 +1326,14 @@ const trivia = {
   dificil: [
     {
       category: "Personajes",
+      question: "¿Qué es un Menos Grande en Bleach?",
+      options: ["Un Hollow evolucionado formado por múltiples almas", "Un Hollow artificial creado por los shinigami", "Un capitán Hollowificado", "Un espíritu sellado en un gigai del hueco mundo"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/RYBtOF6.png"
+    },
+    {
+      category: "Personajes",
       question: "¿Qué Pokémon abandona Ash para que pueda vivir libre con los de su especie?",
       options: ["Bulbasaur", "Charmander", "Butterfree", "Kingler"],
       answer: 2,
