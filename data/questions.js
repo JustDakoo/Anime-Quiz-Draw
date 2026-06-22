@@ -592,6 +592,14 @@ const trivia = {
       isCharacterClue: false,
       image: "https://i.imgur.com/Qsf1hXR.jpeg"
     },
+    {
+      category: "Personajes",
+      question: "¿De qué está hecho el cuerpo de Tokoro Tennosuke en Bobobo?",
+      options: ["Agua", "Algas Traslucidas", "Pelo Azul", "Gelatina"],
+      answer: 3,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/TtqHXCa.png"
+    },
   ],
   media: [
     {
@@ -601,6 +609,14 @@ const trivia = {
       answer: 1,
       isCharacterClue: false,
       image: "https://i.imgur.com/nfmNPLb.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué poder tiene Heppokomaru en Bobobo?",
+      options: ["Se tira pedos", "Escupe flemas", "Su velocidad absoluta", "Puede copiar el don del enemigo"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/KwO4WML.png"
     },
     {
       category: "Personajes",
@@ -1275,6 +1291,22 @@ const trivia = {
       answer: 2,
       isCharacterClue: false,
       image: "https://i.imgur.com/UUVUCPj.jpeg"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cómo se conocía comúnmente la versión amarilla y más poderosa de Don Patch en Bobobo?",
+      options: ["Golden Patch", "Super Don Patch", "Don Patch Sunshine", "Don Patch Mode"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/7AN3CNI.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué es la espada legendaria de Don Patch en Bobobo?",
+      options: ["Un rodillo de cocina", "La espada antigua del Dios del Sol", "Una zanahoria", "Un puerro"],
+      answer: 3,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/2VsS2bY.png"
     },
     {
       category: "Personajes",
