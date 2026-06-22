@@ -1294,6 +1294,14 @@ const trivia = {
     },
     {
       category: "Personajes",
+      question: "¿Por qué Heppokomaru a veces entra en su “modo estúpido” en Bobobo?",
+      options: ["Se convierte cada vez que pierde la consciencia durante un combate", "Se convierte cada vez que ve a Beauty en una pose sexy", "Porque se queda sin oxígeno en el cerebro por contener demasiado gas", "Porque Bobobo lo hipnotiza abriendo su pelo afro"],
+      answer: 2,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/xRajI1X.png"
+    },
+    {
+      category: "Personajes",
       question: "¿Cómo se conocía comúnmente la versión amarilla y más poderosa de Don Patch en Bobobo?",
       options: ["Golden Patch", "Super Don Patch", "Don Patch Sunshine", "Don Patch Mode"],
       answer: 1,
