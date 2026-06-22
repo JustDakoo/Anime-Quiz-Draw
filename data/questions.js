@@ -620,6 +620,22 @@ const trivia = {
     },
     {
       category: "Personajes",
+      question: "¿Qué detalle distingue a Softon como personaje pese a su apariencia absurda en Bobobo?",
+      options: ["Es muy competente y serio", "Nunca pelea", "Siempre pierde a propósito", "Es un espía doble"],
+      answer: 0,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/8wtVqkH.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Cuál es la mayor obsesión de Tokoro Tennosuke durante gran parte de la serie en Bobobo?",
+      options: ["Vengarse de Bobobo", "Ser admirado y tomado en serio", "Derrotar a Don Patch", "Convertirse en emperador"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/DSOs3AT.png"
+    },
+    {
+      category: "Personajes",
       question: "¿Qué poder tiene Heppokomaru en Bobobo?",
       options: ["Se tira pedos", "Escupe flemas", "Su velocidad absoluta", "Puede copiar el don del enemigo"],
       answer: 0,
