@@ -12,7 +12,7 @@ const trivia = {
       category: "Personajes",
       question: "¿Qué función cumple un Gigai en Bleach?",
       options: ["Amplificar reiatsu", "Servir como cuerpo artificial para un Shinigami", "Sellar Hollows dentro de un cadáver", "Crear portales al Hueco Mundo"],
-      answer: 1,
+      answer: 2,
       isCharacterClue: false,
       image: "https://i.imgur.com/eBkx9d3.png"
     },
@@ -628,7 +628,7 @@ const trivia = {
       category: "Personajes",
       question: "¿Qué define mejor la personalidad de Yasutora Sado de Bleach?",
       options: ["Impulsivo y agresivo", "Calmado, leal y resistente", "Frío y distante", "Sarcástico y competitivo"],
-      answer: 1,
+      answer: 3,
       isCharacterClue: false,
       image: "https://i.imgur.com/fLlI4Qo.png"
     },
@@ -646,7 +646,7 @@ const trivia = {
       category: "Personajes",
       question: "¿Qué suele aportar Kon a muchas escenas de Bleach?",
       options: ["Estrategia militar", "Alivio cómico y caos", "Información secreta", "Poder oculto"],
-      answer: 1,
+      answer: 0,
       isCharacterClue: false,
       image: "https://i.imgur.com/lN4xbNQ.png"
     },
