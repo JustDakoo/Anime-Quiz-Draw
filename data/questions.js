@@ -616,8 +616,40 @@ const trivia = {
       isCharacterClue: false,
       image: "https://i.imgur.com/TtqHXCa.png"
     },
+    {
+      category: "Personajes",
+      question: "¿Qué rasgo define mejor a Ichigo, el protagonista de Bleach?",
+      options: ["Busca poder por ambición", "Pelea principalmente para proteger a otros", "Quiere dominar Soul Society", "Busca convertirse en capitán por venganza"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/5zgqxz6.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué define mejor la personalidad de Yasutora Sado de Bleach?",
+      options: ["Impulsivo y agresivo", "Calmado, leal y resistente", "Frío y distante", "Sarcástico y competitivo"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/fLlI4Qo.png"
+    },
   ],
   media: [
+    {
+      category: "Personajes",
+      question: "¿Qué suele aportar Kon a muchas escenas de Bleach?",
+      options: ["Estrategia militar", "Alivio cómico y caos", "Información secreta", "Poder oculto"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/lN4xbNQ.png"
+    },
+    {
+      category: "Personajes",
+      question: "¿Qué objeto le entrega Rukia Kuchiki a Ichigo Kurosaki para que pueda salir de su cuerpo en Bleach?",
+      options: ["Talismán", "Soul Candy", "El guante de sustitución", "Un sello espiritual"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/2qDylau.png"
+    },
     {
       category: "Personajes",
       question: "¿Cuál es la misión principal de Bobobo al comienzo?",
