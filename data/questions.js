@@ -1358,6 +1358,14 @@ const trivia = {
   dificil: [
     {
       category: "Personajes",
+      question: "¿Qué condición debe cumplirse para que una Zanpakutō revele su nombre a su portador?",
+      options: ["Derrotar a un capitán", "Sincronizar y conocer su esencia", "Superar un examen del Gotei 13", "Romper el sello espiritual"],
+      answer: 1,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/ep0wViA.png"
+    },
+    {
+      category: "Personajes",
       question: "¿Qué es un Menos Grande en Bleach?",
       options: ["Un Hollow evolucionado formado por múltiples almas", "Un Hollow artificial creado por los shinigami", "Un capitán Hollowificado", "Un espíritu sellado en un gigai del hueco mundo"],
       answer: 0,
