@@ -636,6 +636,14 @@ const trivia = {
   media: [
     {
       category: "Personajes",
+      question: "¿Qué habilidad distingue principalmente a Orihime Inoue de Bleach?",
+      options: ["Manipulación de gravedad", "Sellado de almas y control del 6º elemento", "Ilusiones completas", "Rechazo de fenómenos y curación"],
+      answer: 3,
+      isCharacterClue: false,
+      image: "https://i.imgur.com/V5OPOMI.png"
+    },
+    {
+      category: "Personajes",
       question: "¿Qué suele aportar Kon a muchas escenas de Bleach?",
       options: ["Estrategia militar", "Alivio cómico y caos", "Información secreta", "Poder oculto"],
       answer: 1,
